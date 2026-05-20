@@ -1,0 +1,23 @@
+# Сборочные артефакты
+build/
+*.apk
+*.aab
+*.keystore
+
+# Локальные настройки среды (путь к SDK у каждого свой)
+local.properties
+
+# Gradle служебное
+.gradle/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# Бэкенд: секреты
+backend/.env
+
+# ВАЖНО: НЕ игнорируем .github/ и gradle/wrapper/ — они нужны для сборки
